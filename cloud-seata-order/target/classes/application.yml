@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: order-service
+  cloud:
+    alibaba:
+      seata:
+        tx-service-group: default
+  datasource:
+    url: jdbc:mysql://192.168.3.72:3306/db_order?useSSL=false&serverTimezone=UTC
+    username: hive
+    password: hive
+  jpa:
+    show-sql: true
+server:
+  port: 8082
+logging:
+  level:
+    org.springframework.cloud.alibaba.seata.web : debug
+    io.seata : debug
+# 注册中心配置
+eureka:
+  instance:
+    ip-address: 127.0.0.1
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/

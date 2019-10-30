@@ -1,0 +1,6 @@
+com\spirit\cloud\seata\storage\service\StorageService.class
+com\spirit\cloud\seata\storage\entity\StorageTbl$StorageTblBuilder.class
+com\spirit\cloud\seata\storage\CloudSeataStorageApplication.class
+com\spirit\cloud\seata\storage\mapper\StorageMapper.class
+com\spirit\cloud\seata\storage\entity\StorageTbl.class
+com\spirit\cloud\seata\storage\controller\StorageController.class

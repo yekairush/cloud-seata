@@ -1,0 +1,7 @@
+com\spirit\cloud\seata\order\entity\OrderTbl.class
+com\spirit\cloud\seata\order\mapper\OrderTblMapper.class
+com\spirit\cloud\seata\order\controller\OrderController.class
+com\spirit\cloud\seata\order\entity\OrderTbl$OrderTblBuilder.class
+com\spirit\cloud\seata\order\feign\UserFeignClient.class
+com\spirit\cloud\seata\order\service\OrderService.class
+com\spirit\cloud\seata\order\CloudSeataOrderApplication.class
